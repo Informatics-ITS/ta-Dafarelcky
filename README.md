@@ -1,10 +1,10 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Dafarel Fatih Wirayudha  
+**NRP**: 5025211120  
+**Judul TA**: Visualisasi Penelusuran Produk Makanan Halal from Farm to Table Berdasarkan Web Teratai Menggunakan React.js dan Cytoscape  
+**Dosen Pembimbing**: Ir. Adhatus Solichah Ahmadiyah, S.Kom, M.Sc.  
+**Dosen Ko-pembimbing**: Dr. Kelly Rossa Sungkono, S.Kom., M.Kom
 
 ---
 
@@ -71,5 +71,5 @@ Pastikan proyek memenuhi kriteria berikut sebelum submit:
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
+- Penulis: [dacukucay@gmail.com]
 - Pembimbing Utama: [email@pembimbing]

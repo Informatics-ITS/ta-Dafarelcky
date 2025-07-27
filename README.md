@@ -9,9 +9,8 @@
 ---
 
 ## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=hCXRKYTXD9g)  
+[![Demo Aplikasi](docs/thumbnail.png)](https://www.youtube.com/watch?v=hCXRKYTXD9g)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
@@ -73,18 +72,8 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 
 ---
 
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
-
----
-
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [dacukucay@gmail.com]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: dacukucay@gmail.com
+- Pembimbing Utama: adhatus@if.its.ac.id

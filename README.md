@@ -22,29 +22,45 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 
 ### Prasyarat  
 - Daftar dependensi (contoh):
-  - Python 3.10+
   - Node.js v18+
   - MySQL 8.0
-  - [Lainnya...]
+  - Git
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
    git clone https://github.com/Informatics-ITS/TA.git
    ```
-2. **Instalasi Dependensi**
+2. **Instalasi & Konfigurasi Backend**
+- Arahkan ke direktori backend.
    ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   cd TA/backend
    ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
-4. **Jalankan Aplikasi**
+- Install dependensi:
    ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
+   npm install 
+   ```
+- Salin file .env.example menjadi .env.
+- Isi variabel lingkungan di dalam file .env dengan kredensial database MySQL yang ada.
+3. **Instalasi & Konfigurasi Frontend**
+- Arahkan ke direktori frontend.
+   ```bash
+   cd TA/frontend
+   ```
+- Install dependensi:
+   ```bash
+   npm install 
+   ```
+- Salin file .env.example menjadi .env.
+- Sesuaikan variabel lingkungan di dalam file .env jika diperlukan. Pastikan URL API menunjuk ke backend yang ada.
+4. **Jalankan Aplikasi**
+- Jalankan server backend dari direktori backend
+   ```bash
+   npm run dev
+   ```
+- Jalankan aplikasi frontend di terminal terpisah, dari direktori frontend
+   ```bash
+   npm run start
    ```
 5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
 
@@ -52,9 +68,8 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 
 ## 📚 Dokumentasi Tambahan
 
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
+- [![User Manual]](docs/user_manual.pdf)
+- [![Diagram Arsitektur]](docs/arsitektur.png)
 
 ---
 

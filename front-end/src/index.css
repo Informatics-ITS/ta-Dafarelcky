@@ -1,0 +1,42 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-gray-100 text-gray-900; /* Light gray background, dark text */
+}
+
+table {
+  @apply w-full text-left border-collapse rounded-lg overflow-hidden shadow-md;
+}
+
+th {
+  @apply bg-[#5f259f] text-white p-3 text-sm font-semibold border-r border-white last:border-r-0;
+}
+
+td {
+  @apply p-3 border-b border-gray-200 text-sm border-r border-gray-300 last:border-r-0;
+}
+
+tr:nth-child(even) td {
+  @apply bg-gray-50;
+}
+
+tr:hover td {
+  @apply bg-gray-100;
+}
